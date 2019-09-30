@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "59cb9d023aa6a",
+        "Name": "RR012 - pdf Waste - general enquiry (Biffa)",
+        "Type": "PRINTABLE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "RubbishRecycling",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"name\":\"{reference}\",\"remove_margins\":\"\",\"setPaperType\":\"a4\",\"content\":\"<div style=\\\"font-family: arial, helvetica, sans-serif;\\\">\\n<div style=\\\"font-family: arial, helvetica, sans-serif;\\\">{#PDF_Top_Logo}</div>\\n</div>\\n<style><!--\\ntable.PCCfieldsT{\\n    width: 100%;\\n}\\n.PCCfieldsT tr td:nth-child(1) {\\n    width: 45%;\\n    vertical-align:top;\\n    padding: 5px 15px 5px 0px; /* top right bottom left */\\n}\\n.PCCfieldsT tr td:nth-child(2) {\\n    width: 55%;\\n    padding: 5px 0px;\\n}\\n--></style>\\n<div></div>\\n<div style=\\\"font-family: arial, helvetica, sans-serif;\\\">\\n<h1><span style=\\\"text-decoration: underline;\\\">Biffa- miscellaneous enquiry form - Stage 3 ({case_ref})</span></h1>\\n<div><big><span style=\\\"font-weight: bold;\\\">Summary<br /> </span></big></div>\\n<div>{#concSummaryBiffa}</div>\\n<table class=\\\"PCCfieldsT\\\">\\n<tbody>\\n<tr>\\n<td>AddressMap</td>\\n<td>{AddressMap}</td>\\n</tr>\\n<tr>\\n<td>Comments Biffa</td>\\n<td>{commentsB}</td>\\n</tr>\\n</tbody>\\n</table>\\n<div>{#carryNotes}</div>\\n</div>\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]

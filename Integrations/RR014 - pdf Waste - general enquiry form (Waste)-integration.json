@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "59cb9f9097ba8",
+        "Name": "RR014 - pdf Waste - general enquiry form (Waste)",
+        "Type": "PRINTABLE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "RubbishRecycling",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"name\":\"{reference}\",\"remove_margins\":\"\",\"setPaperType\":\"us\",\"content\":\"<div style=\\\"font-family: arial, helvetica, sans-serif;\\\">{#PDF_Top_Logo} <br /> <br /> <br />\\n<h1><span style=\\\"text-decoration: underline;\\\">Waste - general enquiry form - Stage 2 ({case_ref})</span></h1>\\n<div><big><span style=\\\"font-weight: bold;\\\">Summary<br /> </span></big></div>\\n<div>{#outputTable}</div>\\n<table style=\\\"width: 100%;\\\">\\n<tbody>\\n<tr>\\n<td style=\\\"width: 45%;\\\">What would you like to do with this form?</td>\\n<td style=\\\"width: 55%;\\\">{what}</td>\\n</tr>\\n<tr>\\n<td style=\\\"width: 45%;\\\">Comments Waste Officer</td>\\n<td style=\\\"width: 55%;\\\">{commentsW}</td>\\n</tr>\\n</tbody>\\n</table>\\n<div>{#carryNotes}</div>\\n<div>{#map}</div>\\n</div>\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"\"}"
+    }
+]
